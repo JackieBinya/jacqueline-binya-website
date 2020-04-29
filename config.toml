@@ -30,7 +30,7 @@ googleAnalytics = ""
 
   [[menu.main]]
     name = "📑projects"
-    identifier = "tags"
+    identifier = "projects"
     url = "/projects/"
     weight = 3
 
