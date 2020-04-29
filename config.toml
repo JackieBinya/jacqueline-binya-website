@@ -1,0 +1,40 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "👩🏾‍🎤hello"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+  name = "Jacqueline Binya"
+
+[params]
+   author = "Jacqueline Binya"
+   # description = "Anubis is a simple minimalist theme for Hugo blog engine."
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "📖readme"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "archive"
+    name = "📰blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "📑projects"
+    identifier = "tags"
+    url = "/projects/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
