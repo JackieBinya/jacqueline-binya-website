@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-draft: true
+draft: false
 ---
 
 <a href="https://jackiebinya.github.io/free-mentors-challenge-final/UI/" target="_blank" class="social-link">

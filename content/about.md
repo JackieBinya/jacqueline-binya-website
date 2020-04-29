@@ -1,7 +1,7 @@
 ---
 title: "About Jacqueline Binya"
 date: 2020-04-14T04:11:06+02:00
-draft: true
+draft: false
 ---
 
 <img src="/images/profile_slider.gif" alt="Jacqueline Binya photos in tech events">

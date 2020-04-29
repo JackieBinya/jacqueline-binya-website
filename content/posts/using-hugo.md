@@ -1,7 +1,7 @@
 ---
 title: "Using Hugo Satic Site Generator"
 date: 2020-04-24T18:42:01+02:00
-draft: true
+draft: false
 tags: ["hugo", "static-site-generators", "cms", "blogging"]
 ---
 
