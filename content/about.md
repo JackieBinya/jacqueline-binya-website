@@ -18,7 +18,7 @@ I also recently started contributing to free and open source, I am hoping to als
 
 🧘🏾‍♀️ During weekends you will most likely find me spending time with my son, taking nature walks or baking treats in the kitchen.
 
-🧡 💛 💚 I would love to hear from you.So you can,
+🧡 💛 💚 I would love to hear from you. So you can,
 
 <div class="form-container">
         <form action="https://formspree.io/jacquelinebinya@gmail.com" accept-charset="utf-8" method="POST"class="contact-form">

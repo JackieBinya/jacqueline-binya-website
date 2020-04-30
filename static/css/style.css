@@ -204,6 +204,16 @@ article header h1 a {
     text-decoration: none;
 }
 
+.article-link {
+    cursor: pointer;
+}
+
+.article-link:focus,
+.article-link:hover {
+    border-bottom: 2px solid  sandybrown;
+    text-shadow: none;
+}
+
 .article-info {
     font-size: 0.75em;
     color: grey;
@@ -494,6 +504,7 @@ footer {
 
 @media (min-width: 425px) {
     .project-desc h2 {
-        margin-right: 1em;
+        display: block;
+        margin-right: 2em;
     }
 }
