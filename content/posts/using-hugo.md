@@ -31,7 +31,7 @@ Hugo, stands out because:
 * Its incredible fast 🚀, it is the fastest static site generator to date. Hugo is written using <a href="https://golang.org/"  class="article-link">Golang </a>, using Go makes Hugo build processes incredible fast!
 * It has a wide variety of themes which make it easy to create a static website, you dont have to start from scatch.
 
-So far the only cons I came across when using Hugo were that to fully harness its power you have to know Go. Knowing a little bit of Go gives you so much power in twerking up themes, which is rather important if you want to give a unique feel to your site despite it being created from a theme. I also would love to express the fact that it took me time to warp my head around how Hugo works despite coming from a solid background in front-end development. So the learning curve of learning how to use static site generators is steep.
+So far the only cons I came across when using Hugo were that to fully harness its power you have to know Go. Knowing a little bit of Go gives you so much power in tweaking up themes, which is rather important if you want to give a unique feel to your site despite it being created from a theme. I also would love to express the fact that it took me time to warp my head around how Hugo works despite coming from a solid background in front-end development. So the learning curve of learning how to use static site generators is steep.
 
 ## My expiriences using Hugo
 
@@ -42,7 +42,7 @@ So for an intro to using Hugo for my personal blog I found the following video t
 
 2. <a href="https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3" class="article-link">Hugo - Static Site Generator | Tutorial</a>
 
-After going through the tutorials I followed the Hugo official <a href="https://gohugo.io/getting-started/" class="article-link">documentation</a> on getting started. My theme of choice was <a href="https://themes.gohugo.io/hugo-theme-anubis/" class="article-link">Anubis</a>, I chose it because its styling is minimalist and clean and most importantly the styling wasn't too opinionated I had lots of room to play around and twerk the styling without having to change a lot of the original styling.
+After going through the tutorials I followed the Hugo official <a href="https://gohugo.io/getting-started/" class="article-link">documentation</a> on getting started. My theme of choice was <a href="https://themes.gohugo.io/hugo-theme-anubis/" class="article-link">Anubis</a>, I chose it because its styling is minimalist and clean and most importantly the styling wasn't too opinionated I had lots of room to play around and tweak the styling without having to change a lot of the original styling.
 
 ## Other Technologies used in creating my blog
 
