@@ -1,6 +1,3 @@
-# Copy command in comment below to deploy or re-deploy site | double qoutes have an optional commit message
-# ./deploy.sh "Deploy the first version of my portfolio site”
-
 #!/bin/sh
 
 # If a command fails then the deploy stops
