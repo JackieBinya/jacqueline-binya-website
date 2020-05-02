@@ -39,16 +39,16 @@ I also recently started contributing to free and open source, I am hoping to als
 I am also availaible on the following platforms,
 
 <div  class="socials">
-    <a href="https://github.com/JackieBinya" target="_blank" class="social-link">
+    <a href="https://github.com/JackieBinya" class="social-link">
             <img src="/images/github.png" alt="A link to Github profile" class="socials-logo">
     </a>
-    <a href="https://twitter.com/jacquelinebinya" target="_blank" class="social-link">
+    <a href="https://twitter.com/jacquelinebinya" class="social-link">
             <img src="/images/twitter_logo.png" alt="A link to Twitter profile" class="socials-logo">
     </a>
-    <a href="https://www.youtube.com/channel/UCrcJ2jOZpiw77fTk9DratBw target="_blank" class="social-link">
+    <a href="https://www.youtube.com/channel/UCrcJ2jOZpiw77fTk9DratBw" class="social-link">
             <img src="/images/youtube_logo.png" alt="A link to YouTube channel" class="socials-logo">
     </a>
-    <a href="www.linkedin.com/in/jacqueline-binya" target="_blank" class="social-link">
+    <a href="https://www.linkedin.com/in/jacquelinebinya" class="social-link">
             <img src="/images/linkedin.png" alt="A link to linkednin profile" class="socials-logo">
     </a>    
 </div>
