@@ -5,7 +5,7 @@ draft: false
 tags: ["hugo", "static-site-generators", "cms", "blogging"]
 ---
 
-I recently started contributing to free and open-source, but that's a story for another day. So well I stumbled upon a bunch of projects with issues open which required help in either completely writing new documentation using <a href="https://gohugo.io/" class="article-link">Hugo </a> or migrating the existing documentation to Hugo. I was naturally curious why so many organizations were willing to make that shift. So I started my research and this is what I learned about Hugo.
+I recently started contributing to free and open-source software, but that's a story for another day. So well I stumbled upon a bunch of projects with issues open which required help in either completely writing new documentation using <a href="https://gohugo.io/" class="article-link">Hugo </a> or migrating the existing documentation to Hugo. I was naturally curious why so many organizations were willing to make that shift. So I started my research and this is what I learned about Hugo.
 
 ## Why Hugo ?
 
@@ -51,5 +51,5 @@ After going through the tutorials I followed the Hugo official <a href="https://
 
 ## Making it even better for non-techies | Integrating Hugo with CMSes
 
-Hugo can be bundled with headless content management systems like <a href="https://www.datocms.com/" class="article-link">DatoCMS</a> to enable it to be used by users from a non-technical background. Read DatoCMS official <a href="https://www.datocms.com/docs/hugo" class="article-link">documentation</a> to find out about how that can be achieved.
+Hugo can be bundled with headless content management systems like <a href="https://www.datocms.com/" class="article-link">DatoCMS</a> to enable it to be harnessed for use by users from non-technical background. Read DatoCMS official <a href="https://www.datocms.com/docs/hugo" class="article-link">documentation</a> to find out about how that can be achieved.
 
