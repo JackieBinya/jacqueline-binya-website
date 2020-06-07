@@ -2,7 +2,7 @@
 title: "Using Hugo Static Site Generator"
 date: 2020-04-24T18:42:01+02:00
 draft: false
-tags: ["hugo", "static-site-generators", "cms", "blogging"]
+tags: ["hugo", "static-site-generators", "cms"]
 ---
 
 I recently started contributing to free and open-source software, but that's a story for another day. So well I stumbled upon a bunch of projects with issues open which required help in either completely writing new documentation using <a href="https://gohugo.io/" class="article-link">Hugo </a> or migrating the existing documentation to Hugo. I was naturally curious why so many organizations were willing to make that shift. So I started my research and this is what I learned about Hugo.

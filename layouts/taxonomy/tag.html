@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+   <div class="tag-container">
+    <p> Posts with tags including:</p>
+    <a class="tag" href={{ "/tags/" | relLangURL }}{{ .Title | urlize }}>{{ .Title }}</a>
+</div>
+
+    {{ range .Data.Pages }}
+    <article class="post-list">
+        <header> 
+            <h2>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+        </header>
+        <div class="content">
+            {{ .Summary }}
+        </div>
+        {{ partial "articleInfoDate.html" . }}
+<!--         {{ if .Truncated }}
+            <div class="read-more">
+                <a href="{{ .RelPermalink }}">{{ i18n "readMore" | humanize }}</a>
+            </div>
+        {{ end }} -->
+
+    </article>
+    {{ end }}
+
+{{ end }}

@@ -1,6 +1,16 @@
 {{ define "main" }}
 
-    <h1>{{ i18n .Title }}</h1>
+    <h1>Jacqueline Binya writes about:</h1>
+    
+    <!-- Rendering a Site’s Taxonomies -->
+    <ul class="article-tags">
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+          <li><a  class="tag" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+        {{ end }}
+    </ul>
+
+    <br/>
+
     {{.Content }}
     {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{ range $pages }}
