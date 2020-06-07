@@ -5,6 +5,8 @@
     <a class="tag" href={{ "/tags/" | relLangURL }}{{ .Title | urlize }}>{{ .Title }}</a>
 </div>
 
+<hr class="page-seperator" />
+
     {{ range .Data.Pages }}
     <article class="post-list">
         <header> 

@@ -573,3 +573,7 @@ a[href^="/tags/git"]{
     display: flex;
     align-items: center;
 }
+
+.page-seperator {
+    width: 250px;
+}
