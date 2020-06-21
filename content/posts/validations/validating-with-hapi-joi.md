@@ -7,7 +7,7 @@ tags: ["hapi-joi", "validations"]
 ## Intro
 ### Why validate?
 
-Before we even get started I know there is someone thinking, " Why should I bother with validations in the backend? Validations should be done in the front end, after all, we have inbuilt [HTML5 form validations](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation), why must I validate twice? 
+Before we even get started I know there is someone thinking, " Why should I bother with validations in the backend? Validations should be done in the front end, after all, we have inbuilt <a src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation" class="article-link">HTML5 form validations</a>, why must I validate twice? 
 Well, it is good practice when designing your API to always design it in isolation never make any assumptions, cause, in all honesty, you never know who is going to consume your API.
 
 So in a RESTful  API, you typically have at least one  HTTP POST method that accepts a payload of user data in json format. Now the question arises how then do we ensure that the data we receive is of the desired type and in the correct format before we persist that data in our application's database?
@@ -17,15 +17,15 @@ To do that we use middleware functions normally referred to as validators. The g
 
 ### What then is @hapi/joi
 
-From the official documentation from [npmjs](https://www.npmjs.com/package/@hapi/joi), @hapi/joi is defined as:"
+From the official documentation from <a src="https://www.npmjs.com/package/@hapi/joi" class="article-link">npmjs</a>, @hapi/joi is defined as:"
 **The most powerful schema description language and data validator for JavaScript.**
 joi is part of the hapi ecosystem and was designed to work seamlessly with the hapi web framework and its other components (but works great on its own or with other frameworks)..."
 
-Well to break it down, @hapi/joi is a module that is used to define a schema or blueprint of Javascript objects. Once the schema is defined, you then can use Joi's handy methods that come bundled with it, to validate any other objects against the schema. It was designed for the hapi ecosystem but works well with other frameworks of which for our purposes we will use it in an [express](https://expressjs.com/) server.
+Well to break it down, @hapi/joi is a module that is used to define a schema or blueprint of Javascript objects. Once the schema is defined, you then can use Joi's handy methods that come bundled with it, to validate any other objects against the schema. It was designed for the hapi ecosystem but works well with other frameworks of which for our purposes we will use it in an <a src="https://expressjs.com/" class="article-link">express</a> server.
 
 
 ### Getting Started
-In your project [set up a basic express](https://dev.to/nubian_geekess/setting-up-a-basic-express-server-in-e6-bootstrapped-with-eslint-and-airbnb-style-guide-1g6i) server, and then install @hapi/joi by running the command ``npm i @hapi/joi`` on the terminal. This will install the current latest version of @hapi/joi of which at the time of publishing this article was version 16.1.7
+In your project <a src="https://dev.to/nubian_geekess/setting-up-a-basic-express-server-in-e6-bootstrapped-with-eslint-and-airbnb-style-guide-1g6i" class="article-link">set up a basic express</a> server, and then install @hapi/joi by running the command ``npm i @hapi/joi`` on the terminal. This will install the current latest version of @hapi/joi of which at the time of publishing this article was version 16.1.7
 
 In the root of your project create files:
  - **schema.js**
