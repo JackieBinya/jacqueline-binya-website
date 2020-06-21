@@ -160,8 +160,6 @@ In the example in the figure above:
 - ``number.positive()`` specifies that only positive numbers are accepted for the ``price``
 - ``number.precision(limit)`` specifies the maximum permissible number of decimal places for the ``price``.
 
-_Note_ The purpose of this article was to hopefully get you started on using the Joi modules for validations, it does not in any way cover everything about performing validations using the module, to learn more, I encourage you to go over the [official documentation.](https://hapi.dev/family/joi/?v=16.1.7#string).
-
-_Thank you for reading my article, if you loved it please like it below, and follow me on [Twitter](https://twitter.com/nubian_geekess). Increasing my Twitter following will help me land my dream job as a technical writer. If you have any comments and suggestions please let me know._
+_Note_ The purpose of this article was to hopefully get you started on using the Joi modules for validations, it does not in any way cover everything about performing validations using the module, to learn more, I encourage you to go over the <a src="https://hapi.dev/family/joi/?v=16.1.7#string" class="article-link">official documentation.</a>.
 
 > _This post was originally published on <a class="article-link" href="https://dev.to/jacqueline/using-hapi-joi-version-16-1-7-to-validate-a-request-body-in-a-restful-api-bje">dev.to</a>_
