@@ -1,7 +1,7 @@
 ---
 title: "Be the Change"
 date: 2020-06-22T09:35:46+02:00
-tags: ['life', 'foss', 'chaoss']
+tags: ['life', 'foss']
 draft: false
 ---
 The calamity and threat brought by the pandemic had us locked away in our homes for months. 
