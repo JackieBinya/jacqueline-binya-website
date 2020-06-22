@@ -277,6 +277,9 @@ article img {
     height: auto;
     margin: 0 auto .5em;
 }
+figcaption {
+    text-align: center;
+}
 
 .read-more {
     font-size: 0.85em;

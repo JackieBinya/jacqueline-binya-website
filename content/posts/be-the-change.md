@@ -41,12 +41,12 @@ I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been
 This winter I was fortunate to get involved with the <a href="https://chaoss.community/" class="article-link">Community Health Analytics Open Source Software(CHAOSS)</a> Community and be part of the amazing work they are doing to change the future of tech. The work being done at CHAOSS gives me hope about the future and for me it's been an opportunity to be part of the change.
 I am contributing to the awesome <a href="https://github.com/badging" class="article-link">CHAOSS Badging</a> project. My participation in the CHAOSS Badging project has been part of my application for Google Summer of Docs 2020. 
 
-The problem that led to starting the CHAOSS Project was the need and demand to measure the health of open source projects.
+CHAOSS Project was created to meet the demand and satisfy the need to measure the health of open source projects&/communities.
 
 The simple way to solve this problem, was to:
-* Define metrics
-* Develop tools to measure the health of open-source projects
-* Collect data and analyse it to determine open-source project health.
+* Define metrics to measure ipon source health
+* Develop tools to measure those metrics
+* And then finally collect data and analyse it to determine open-source project health.
 
 So, 
 
@@ -81,7 +81,7 @@ The D&I Workflow takes place in the open and in the public on GitHub. The CHAOSS
 In the documentation the prospective applicants are provided with information on how to apply for a badge. This is a two-step process which starts with appending either an event or project in a events or projects table in the corresponding repos of the entities. The table is used to showcase the badging status and/or outcome of either events or projects for which badging applications were made. Because of the underlining git workflow once the applicants append their entities to the tables i.e make changes, they can open pull requests so as to submit their changes. The PRs opened have an embedded template which is a form the applicants are expected to fill out in Markdown. The questions asked in the form are used for D&I assessment.
 So far review guides or specifications are yet to be advised.
 
-To learn more about CHAOSS D&I Badging Project, check out this <a href="https://chaoss.community/participate/" class="article-link">link</a> or get in touch with me on <a href="https://twitter.com/jacquelinebinya" class="article-link">Twitter</a>.
+To participate in the CHAOSS D&I Badging Project, check out this <a href="https://chaoss.community/participate/" class="article-link">link</a> or get in touch with me on <a href="https://twitter.com/jacquelinebinya" class="article-link">Twitter</a>.
 
 <img src="https://media.giphy.com/media/2t9y9b5AH4ljV0S7fu/giphy.gif" alt="Together">
 
