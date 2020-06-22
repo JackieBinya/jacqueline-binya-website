@@ -16,9 +16,11 @@ Now at the aftermath of global protests against inequality and racism the questi
 <figcaption>If only it were that simple 🤦🏾</figcaption>
 </figure>
 
-Well I have been a techie for a little over a year. I come from a small country in Southern Africa called Zimbabwe. A decade ago someone like me would had never been able to break into tech.  Because of barriers to entry like poverty(computers don't come cheap eey!), lack of access to the internet, and the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documention of age old technologies written in Old English or maybe it's Latin 🤔.
+Well I have been a techie for a little over a year. I come from a small country in Southern Africa called Zimbabwe. A decade ago someone like me would had never been able to break into tech. Because of barriers to entry like poverty(computers don't come cheap eey!), lack of access to the internet, and the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documention of age old technologies written in a complex hard to understand manner with excessive use of technical jargon.
 
-Today in comparison we have infinite high quality free resources on the internet ei. tutorials made by contributors of diverse backgrounds.
+Today in comparison we have infinite high quality free resources on the internet i.e. tutorials made by contributors of diverse backgrounds.
+
+The price of PCs has been on a steady descrease in the recent years so has  that of the internet.
 
 Technical writers are doing the most! Tech documentation of mordern tools, frameworks and technologies is now more intuitive.
 
