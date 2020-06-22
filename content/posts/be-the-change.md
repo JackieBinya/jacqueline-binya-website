@@ -20,7 +20,7 @@ Well I have been a techie for a little over a year. I come from a small country 
 
 Today in comparison we have infinite high quality free resources on the internet i.e. tutorials made by contributors of diverse backgrounds.
 
-The price of PCs has been on a steady descrease in the recent years so has  that of the internet.
+The price of PCs has been on a steady descrease in the recent years so has that of the internet.
 
 Technical writers are doing the most! Tech documentation of mordern tools, frameworks and technologies is now more intuitive.
 
@@ -32,7 +32,7 @@ Inclusive internship opportunities GSOD Outreachy.
 
 Tech has indeed been democratized but there is still more to be done.
 
-I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been great. I have met awesome people who willing share and go out to their way to ensure that my expirience is memorable. In turn I always try to make meaningful contributions and practise kindness. Despite my posetive expiriences, I have always had fears and doubts lurking at the bottom of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
+I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been great. I have met awesome people who willing share and go out to their way to ensure that my expirience is memorable. In turn I always try to make meaningful contributions and practise kindness. Despite my posetive expiriences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
 
 * As a black woman from Africa are my contributions taken seriously and valued?
 * Is the playing field even? Do I have equal opportunity to participate and complete ?
@@ -44,7 +44,7 @@ I am contributing to the awesome <a href="https://github.com/badging" class="art
 CHAOSS Project was created to meet the demand and satisfy the need to measure the health of open source projects&/communities.
 
 The simple way to solve this problem, was to:
-* Define metrics to measure ipon source health
+* Define metrics to measure open source health
 * Develop tools to measure those metrics
 * And then finally collect data and analyse it to determine open-source project health.
 
@@ -63,7 +63,12 @@ The CHAOSS Community is then divided into different Working Groups. The aims of 
 
 CHAOSS D&I Badging Project falls under the CHAOSS D&I Workgroup. 
 
-Let's recap before we proceed. Well in the beginning the big problem was coming up with a means to measure open source health. The CHAOSS Project then defined the metrics. But the metrics were still big and ambigous and there was still no means to measure the metrics.The CHAOSS Project then formed different Working Groups for the defined metrics.The responsibility of each Working Group is to refine the metrics and come up with tools to measure the metrics. 
+Let's recap before we proceed:
+
+
+`
+💡Well in the beginning the big problem was coming up with a means to measure open source health. The CHAOSS Project then defined the metrics. But the metrics were still big and ambigous and there was still no means to measure the metrics.The CHAOSS Project then formed different Working Groups for the defined metrics.The responsibility of each Working Group is to refine the metrics and come up with tools to measure the metrics.
+`
 
 The D&I Working Group formulated focus areas(these are sub-metrics of D&I):
 * Communication Inclusivity
@@ -82,8 +87,3 @@ In the documentation the prospective applicants are provided with information on
 So far review guides or specifications are yet to be advised.
 
 To participate in the CHAOSS D&I Badging Project, check out this <a href="https://chaoss.community/participate/" class="article-link">link</a> or get in touch with me on <a href="https://twitter.com/jacquelinebinya" class="article-link">Twitter</a>.
-
-<img src="https://media.giphy.com/media/2t9y9b5AH4ljV0S7fu/giphy.gif" alt="Together">
-
-
-
