@@ -39,9 +39,9 @@ I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been
 * Will my value as a techie diminish as I grow older? I transitioned into tech in my thirties and this something I plan to be doing for the longest time possible.
 
 This winter I was fortunate to get involved with the <a href="https://chaoss.community/" class="article-link">Community Health Analytics Open Source Software(CHAOSS)</a> Community and be part of the amazing work they are doing to change the future of tech. The work being done at CHAOSS gives me hope about the future and for me it's been an opportunity to be part of the change.
-I am contributing to the awesome <a href="https://github.com/badging" class="article-link">CHAOSS Badging</a> project. My participation in the CHAOSS Badging project has been part of my application for Google Summer of Docs 2020. 
+I am contributing to the awesome <a href="https://github.com/badging" class="article-link">CHAOSS Diversity and Inclusion (D&I) Badging</a> project. My participation in the CHAOSS D&I Badging project has been part of my application for Google Summer of Docs 2020. 
 
-CHAOSS Project was created to meet the demand and satisfy the need to measure the health of open source projects&/communities.
+The CHAOSS Project was created to meet the demand and satisfy the need to measure the health of open source projects&/communities.
 
 The simple way to solve this problem, was to:
 * Define metrics to measure open source health
@@ -61,7 +61,7 @@ The metrics to measure open source health defined by CHAOSS are:
 
 The CHAOSS Community is then divided into different Working Groups. The aims of the Working Groups is to refine the metrics and to work with software implementation.
 
-CHAOSS D&I Badging Project falls under the CHAOSS D&I Workgroup. 
+The CHAOSS D&I Badging Project falls under the CHAOSS D&I Workgroup. 
 
 Let's recap before we proceed:
 
@@ -70,7 +70,7 @@ Let's recap before we proceed:
 💡Well in the beginning the big problem was coming up with a means to measure open source health. The CHAOSS Project then defined the metrics. But the metrics were still big and ambigous and there was still no means to measure the metrics.The CHAOSS Project then formed different Working Groups for the defined metrics.The responsibility of each Working Group is to refine the metrics and come up with tools to measure the metrics.
 `
 
-The D&I Working Group formulated focus areas(these are sub-metrics of D&I):
+The D&I Working Group formulated the following focus areas(these are sub-metrics of D&I):
 * Communication Inclusivity
 * Contributor Community Dirvesity
 * Event Diversity
