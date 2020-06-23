@@ -40,7 +40,7 @@ Disclaimer: Some of the above listed opportunities might have existed a decade a
 
 
 
-**Tech has indeed been democratized, but there is still more to be done.**
+**Tech has indeed been democratized, but there is still so much more to be done.**
 
 I have been a FOSS enthusiast for sometime now. My experiences in FOSS have been great. I have participated in communities where the maintainers and contributors collaborate, share and are intentional in ensuring that the _community_ experience is positive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my positive experiences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
 
