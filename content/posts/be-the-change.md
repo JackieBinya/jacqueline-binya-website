@@ -38,6 +38,8 @@ Today in comparison we have:
 Disclaimer: Some of the above listed opportunities might have existed a decade ago, but the fact that tech communities weren't as strong and accessible as they are today. Those opportunities wouldn't have had been available to persons from marginalized backgrounds because they frankly would have been ignorant of their existence.
 </p>
 
+
+
 **Tech has indeed been democratized, but there is still more to be done.**
 
 I have been a FOSS enthusiast for sometime now. My experiences in FOSS have been great. I have participated in communities where the maintainers and contributors collaborate, share and are intentional in ensuring that the _community_ experience is positive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my positive experiences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
