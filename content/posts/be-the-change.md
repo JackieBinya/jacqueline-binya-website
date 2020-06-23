@@ -12,35 +12,35 @@ The catalyst to this awareness and movement was the untimely death of Gorge Floy
 Now at the aftermath of global protests against inequality and racism the question in everyone else's mind is: 'How do we translate activism into long term meaningful and impactful change?'.
 
 <figure>
-<img src="https://media.giphy.com/media/fYfh8DBB6JxcqXK5Cr/giphy.gif" alt="Gif inscribed with the words everybidy love everybody">
+<img src="https://media.giphy.com/media/fYfh8DBB6JxcqXK5Cr/giphy.gif" alt="Gif inscribed with the words everybody love everybody">
 <figcaption>If only it were that simple 🤦🏾</figcaption>
 </figure>
 
 Well I have been a techie for a little over a year. I come from a small country in Southern Africa called Zimbabwe. A decade ago someone like me would had never been able to break into tech. Because of barriers of entry like:
 * Poverty (computers don't come cheap eey!, a quality CS degree is pricey, paid tutorials cost an arm and leg), 
 * Lack of access to the internet, 
-* And the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documention of age old technologies written in a complex hard to understand manner with excessive use of technical jargon.
+* And the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documentation of age old technologies written in a complex hard to understand manner with excessive use of technical jargon.
 
 Today in comparison we have:
 * Countless high quality free resources on the internet in the form of tutorials made by content-creators of diverse backgrounds.
 
 * The price of PCs has been on a steady decrease in the recent years so has that of the internet.
 
-* Technical writers and developer advocates are doing the most! Tech documentation of mordern tools, frameworks and technologies is now more intuitive. Dev advocates create content in the form of demo applications, blogs, videos and are always avalaible to answer questions. All this to facilitate faster onbording of developers into using tools they represent.
+* Technical writers and developer advocates are doing the most! Tech documentation of modern tools, frameworks and technologies is now more intuitive. Dev advocates create content in the form of demo applications, blogs, videos and are always available to answer questions. All this to facilitate faster onboarding of developers into using tools they represent.
 
-* Organizations like <a href="https://vueschool.io/" class="article-link">VueSchool </a> although not free provide a discount in their subscriptions for users from marginalised backgrounds of up to 62%.
+* Organizations like <a href="https://vueschool.io/" class="article-link">VueSchool </a> although not free provide a discount in their subscriptions for users from marginalized backgrounds of up to 62%.
 
 * Online developer communities on <a href="https://dev.to/" class="article-link">DEV</a> and tech Twitter. Those communities have been a lifeline for me. They allow me to stay up to date with the latest trends and opportunities to network with the global dev community.
 
 * Inclusive internship opportunities from <a href="https://www.outreachy.org/" class="article-link">Outreachy</a>.
 
 <p class="highlight-content">
-Disclaimer: Some of the above listed opportunities might have existed a decade ago, but the fact that tech communities weren't as strong and accessible as they are today. Those opportunities wouldn't have had been availabe to persons from marginalised backgrounds because they frankly would have been ignorant of their existence.
+Disclaimer: Some of the above listed opportunities might have existed a decade ago, but the fact that tech communities weren't as strong and accessible as they are today. Those opportunities wouldn't have had been available to persons from marginalized backgrounds because they frankly would have been ignorant of their existence.
 </p>
 
 **Tech has indeed been democratized, but there is still more to be done.**
 
-I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been great. I have participated in communities where the mantainers and contributors collaborate, share and are intentional in ensuring that the _community_ expirience is posetive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my posetive expiriences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
+I have been a FOSS enthusiast for sometime now. My experiences in FOSS have been great. I have participated in communities where the maintainers and contributors collaborate, share and are intentional in ensuring that the _community_ experience is positive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my positive experiences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
 
 * As a black woman from Africa are my contributions taken seriously and valued?
 * Is the playing field even? Do I have equal opportunity to participate and complete ?
@@ -73,13 +73,13 @@ Let's recap before we proceed:
 
 
 `
-💡Well in the beginning the big problem was coming up with a means to measure open source health. The CHAOSS Project then defined the metrics. But the metrics were still big and ambigous and there was still no means to measure the metrics.The CHAOSS Project then formed different Working Groups for the defined metrics.The responsibility of each Working Group is to refine the metrics and come up with tools to measure the metrics.`
+💡Well in the beginning the big problem was coming up with a means to measure open source health. The CHAOSS Project then defined the metrics. But the metrics were still big and ambiguous and there was still no means to measure the metrics.The CHAOSS Project then formed different Working Groups for the defined metrics.The responsibility of each Working Group is to refine the metrics and come up with tools to measure the metrics.`
 
-The CHAOSS D&I Badging Project falls under the CHAOSS D&I Workgroup. 
+The CHAOSS D&I Badging Project falls under the CHAOSS D&I Working Group. 
 
 The D&I Working Group formulated the following focus areas(these are sub-metrics of D&I):
 * Communication Inclusivity
-* Contributor Community Dirvesity
+* Contributor Community Diversity
 * Event Diversity
 * Governance
 * Leadership
@@ -88,7 +88,7 @@ The D&I Working Group formulated the following focus areas(these are sub-metrics
 
 The D&I Badging Project is implementation software, its purpose is to determine if open source projects and events are diverse and inclusive.
 
-The D&I Badging Workflow takes place in the open and in the public on GitHub. The CHAOSS D&I Badging workgroup created two repos <a href="" class="article-link">Project Badging</a> and <a href="" src="article-link"> Event Bagding</a>. All the documentation pertaining to the the D&I Badging workflow and D&I metrics for the above mentioned focus areas is also found in these repos.
+The D&I Badging Workflow takes place in the open and in the public on GitHub. The CHAOSS D&I Badging working group created two repos <a href="" class="article-link">Project Badging</a> and <a href="" src="article-link"> Event Bagding</a>. All the documentation pertaining to the the D&I Badging workflow and D&I metrics for the above mentioned focus areas is also found in these repos.
 
 In the documentation the prospective applicants are provided with information on how to apply for a badge. This is a two-step process which starts with appending either an event or project in a events or projects table in the corresponding repos of the entities. The table is used to showcase the badging status and/or outcome of either events or projects for which badging applications were made. Because of the underlining git workflow once the applicants append their entities to the tables i.e make changes, they can open pull requests so as to submit their changes. The PRs opened have an embedded template which is a form the applicants are expected to fill out in Markdown. The questions asked in the form are used for D&I assessment.
 So far review guides or specifications are yet to be advised.
