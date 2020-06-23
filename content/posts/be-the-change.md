@@ -16,7 +16,10 @@ Now at the aftermath of global protests against inequality and racism the questi
 <figcaption>If only it were that simple 🤦🏾</figcaption>
 </figure>
 
-Well I have been a techie for a little over a year. I come from a small country in Southern Africa called Zimbabwe. A decade ago someone like me would had never been able to break into tech. Because of barriers of entry like poverty for instance (computers don't come cheap eey!, a quality CS degree is pricey, paid tutorials cost an arm and leg), lack of access to the internet, and the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documention of age old technologies written in a complex hard to understand manner with excessive use of technical jargon.
+Well I have been a techie for a little over a year. I come from a small country in Southern Africa called Zimbabwe. A decade ago someone like me would had never been able to break into tech. Because of barriers of entry like:
+* Poverty (computers don't come cheap eey!, a quality CS degree is pricey, paid tutorials cost an arm and leg), 
+* Lack of access to the internet, 
+* And the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documention of age old technologies written in a complex hard to understand manner with excessive use of technical jargon.
 
 Today in comparison we have:
 * Aninfinite high quality free resources on the internet i.e. tutorials made by content-creators of diverse backgrounds.
@@ -37,7 +40,7 @@ Disclaimer: Some of the above listed opportunities might have existed a decade a
 
 Tech has indeed been democratized, but there is still more to be done.
 
-I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been great. I have participated in communities where the mantainers and contributors collaborate, share and are intentional in ensuring that the expirience is memorable for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my posetive expiriences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
+I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been great. I have participated in communities where the mantainers and contributors collaborate, share and are intentional in ensuring that the _community_ expirience is posetive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my posetive expiriences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
 
 * As a black woman from Africa are my contributions taken seriously and valued?
 * Is the playing field even? Do I have equal opportunity to participate and complete ?
