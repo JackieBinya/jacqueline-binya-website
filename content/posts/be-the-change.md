@@ -22,7 +22,7 @@ Well I have been a techie for a little over a year. I come from a small country 
 * And the worst by my books as a non native English speaker, was the fact that ten years ago I would have had to read and comprehend ancient documention of age old technologies written in a complex hard to understand manner with excessive use of technical jargon.
 
 Today in comparison we have:
-* Aninfinite high quality free resources on the internet i.e. tutorials made by content-creators of diverse backgrounds.
+* Countless high quality free resources on the internet in the form of tutorials made by content-creators of diverse backgrounds.
 
 * The price of PCs has been on a steady decrease in the recent years so has that of the internet.
 
@@ -38,7 +38,7 @@ Today in comparison we have:
 Disclaimer: Some of the above listed opportunities might have existed a decade ago, but the fact that tech communities weren't as strong and accessible as they are today. Those opportunities wouldn't have had been availabe to persons from marginalised backgrounds because they frankly would have been ignorant of their existence.
 </p>
 
-Tech has indeed been democratized, but there is still more to be done.
+**Tech has indeed been democratized, but there is still more to be done.**
 
 I have been a FOSS enthusiast for sometime now. My expiriences in FOSS have been great. I have participated in communities where the mantainers and contributors collaborate, share and are intentional in ensuring that the _community_ expirience is posetive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my posetive expiriences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
 
