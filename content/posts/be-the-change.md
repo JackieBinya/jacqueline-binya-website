@@ -30,9 +30,9 @@ Today in comparison we have:
 
 * Organizations like <a href="https://vueschool.io/" class="article-link">VueSchool </a> although not free provide a discount in their subscriptions for users from marginalized backgrounds of up to 62%.
 
-* Online developer communities on <a href="https://dev.to/" class="article-link">DEV</a> and tech Twitter. Those communities have been a lifeline for me. They allow me to stay up to date with the latest trends and opportunities to network with the global dev community.
+* Online developer communities on <a href="https://dev.to/" class="article-link">DEV</a> and tech Twitter. Those communities have been a lifeline for me. They allow me to stay up to date with the latest trends and provide opportunities to network with the global dev community.
 
-* Inclusive internship opportunities from <a href="https://www.outreachy.org/" class="article-link">Outreachy</a>.
+* Inclusive internship opportunities from organizations like<a href="https://www.outreachy.org/"  class="article-link">Outreachy</a>.
 
 <p class="highlight-content">
 Disclaimer: Some of the above listed opportunities might have existed a decade ago, but the fact that tech communities weren't as strong and accessible as they are today. Those opportunities wouldn't have had been available to persons from marginalized backgrounds because they frankly would have been ignorant of their existence.
@@ -42,7 +42,7 @@ Disclaimer: Some of the above listed opportunities might have existed a decade a
 
 **Tech has indeed been democratized, but there is still so much more to be done.**
 
-I have been a FOSS enthusiast for sometime now. My experiences in FOSS have been great. I have participated in communities where the maintainers and contributors collaborate, share and are intentional in ensuring that the _community_ experience is positive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my positive experiences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of recent events those fears have been amplified. These are some of the anxieties I have :
+I have been a FOSS enthusiast for sometime now. My experiences in FOSS have been great. I have participated in communities where the maintainers and contributors collaborate, share and are intentional in ensuring that the _community_ experience is positive for everyone. In turn I always try to make meaningful contributions and practise kindness. Despite my positive experiences, I have always had fears and doubts lurking at the back of my mind about contributing in FOSS and pursing a career in tech in general but in light of the recent events those fears have been amplified. These are some of the anxieties I have :
 
 * As a black woman from Africa are my contributions taken seriously and valued?
 * Is the playing field even? Do I have equal opportunity to participate and complete ?
@@ -77,7 +77,7 @@ Let's recap before we proceed:
 `
 💡Well in the beginning the big problem was coming up with a means to measure open source health. The CHAOSS Project then defined the metrics. But the metrics were still big and ambiguous and there was still no means to measure the metrics.The CHAOSS Project then formed different Working Groups for the defined metrics.The responsibility of each Working Group is to refine the metrics and come up with tools to measure the metrics.`
 
-The CHAOSS D&I Badging Project falls under the CHAOSS D&I Working Group. 
+So the CHAOSS D&I Badging Project falls under the CHAOSS D&I Working Group. 
 
 The D&I Working Group formulated the following focus areas(these are sub-metrics of D&I):
 * Communication Inclusivity
