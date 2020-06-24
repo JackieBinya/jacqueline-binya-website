@@ -29,7 +29,7 @@ Hugo, stands out because:
 
 * Its open-source.
 * Its incredible fast 🚀, it is the fastest static site generator to date. Hugo is written using <a href="https://golang.org/"  class="article-link">Golang </a>, using Go makes Hugo build processes incredible fast!
-* It has a wide variety of themes which make it easy to create a static website, you don't have to start from scatch.
+* It has a wide variety of themes which make it easy to create a static website, you don't have to start from scratch.
 
 So far the only cons I came across when using Hugo were that to fully harness its power you have to know Go. Knowing a little bit of Go gives you so much power in tweaking up themes, which is rather important if you want to give a unique feel to your site despite it being created from a theme. I also would love to express the fact that it took me time to warp my head around how Hugo works despite coming from a solid background in front-end development. So the learning curve is quite steep.
 
@@ -47,7 +47,7 @@ After going through the tutorials I followed the Hugo official <a href="https://
 ## Other Technologies used in creating my blog
 
 1. <a href="https://formspree.io/" class="article-link">FormSpree</a>: is basically a delivery service, it collects form data and then sends email alerts when forms are submitted on static websites. Its integration into a static website is very easy and seamless.
-2. <a href="https://pages.github.com/" class="article-link">Github Pages </a>: my site was hosted on GitHub pages, to learn more about Github Pages site hosting service read <a href="https://help.github.com/en/github/working-with-github-pages/about-github-pages#user--organization-pages" class="article-link">this</a>. Hosting a Hugo site on Github pages isn't a staight-forward task. I advise you to check out the official documentation <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages" class="article-link">here</a> on how that can be done.
+2. <a href="https://pages.github.com/" class="article-link">Github Pages </a>: my site was hosted on GitHub pages, to learn more about Github Pages site hosting service read <a href="https://help.github.com/en/github/working-with-github-pages/about-github-pages#user--organization-pages" class="article-link">this</a>. Hosting a Hugo site on Github pages isn't a straight-forward task. I advise you to check out the official documentation <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages" class="article-link">here</a> on how that can be done.
 
 ## Making it even better for non-techies | Integrating Hugo with CMSes
 
