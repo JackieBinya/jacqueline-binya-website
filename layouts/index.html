@@ -1,27 +1,33 @@
 {{ define "main" }}
-    {{ .Content }}
-    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ range (.Paginate $pages).Pages }}
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            {{ .Summary | safeHTML }}
+    <div class="profile-container">
+        <div class="profile-headliner">
+            <div class="animate-hello-world"> Hello world! <span class="animate-wave">👋</span> </div> 
+            <div class="animate-desc" style="color: #8892B0;">I'm Jacqueline Binya a software developer, technical writer and cloud enthusiast☁️</div>
         </div>
-<!--         {{ if .Truncated }}
-            <div class="read-more">
-                <a href="{{ .RelPermalink }}">{{ i18n "readMore" | humanize }}</a>
-            </div>
-        {{ end }} -->
-        
-        {{ partial "articleInfoFull.html" . }}
-    </article>
-    {{ end }}
-    {{ partial "pagination.html" . }}
+        <p> I recently wrote these articles:</p>
+    </div>
+        {{ .Content }}
+        {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{ range (.Paginate $pages).Pages }}
+        <article class="post-list">
+            <header> 
+                <h1>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h1>
+            </header>
 
+            <div class="content">
+                {{ .Summary | safeHTML }}
+            </div>
+    <!--         {{ if .Truncated }}
+                <div class="read-more">
+                    <a href="{{ .RelPermalink }}">{{ i18n "readMore" | humanize }}</a>
+                </div>
+            {{ end }} -->
+            
+            {{ partial "articleInfoFull.html" . }}
+        </article>
+        {{ end }}
+        {{ partial "pagination.html" . }}
 {{ end }}
 
