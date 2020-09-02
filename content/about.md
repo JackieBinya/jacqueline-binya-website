@@ -36,7 +36,7 @@ I also recently started contributing to free and open-source software, I am hopi
 <button class="contact-btn">Say hello on email 🙋🏾</button>
 
 
-I am also availaible on the following platforms,
+I am also available on the following platforms,
 
 <div  class="socials">
     <a href="https://github.com/JackieBinya" class="social-link">
@@ -56,14 +56,13 @@ I am also availaible on the following platforms,
 Cheers 🌻
 
 <script>
-        const formElement = document.querySelector('.contact-form')
+        const formElement = document.querySelector('.contact-form');
 
         document.querySelector('.close-btn').addEventListener('click', (e) => {
-                formElement.style.display = 'none'
-        })
+                formElement.style.display = 'none';
+        });
 
         document.querySelector('.contact-btn').addEventListener('click', (e) => {
-                formElement.style.display = 'block'
-
-        })
+                formElement.style.display = 'block';
+        });
 </script>
