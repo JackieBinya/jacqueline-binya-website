@@ -77,7 +77,7 @@ draft: false
      </div>
   </div>
   <p class="project-description">
- My portfolio website was built using Hugo Static Generator. The UI design is a mix of the 90s fun vibe and modern minimalist web design patterns. It's a project that I am continuously working on and I derive so much pleasure from tweaking it every now and then.
+ My portfolio website was built using Hugo Static Generator. It's UI design is influenced by a mix of the 90s funky vibe and modern minimalist web design patterns. It's a project that I am continuously working on, and I derive so much pleasure from tweaking it every now and then.
   </p>
   <hr>
   <div class="project-stack">
