@@ -27,8 +27,7 @@ draft: false
       </div>
   </div>
   <p class="project-description">
-   A property market place where users can find and post residential properties for free.
-  I built this app using Reactjs, React Hooks, Fusejs, and Firebase/Firestore.Registered users are able to post, update and delete property ads.All users can read the resources from the server.
+   A property market place where users can find and post residential properties for free. I built this app using Reactjs, React Hooks, Fusejs, and Firebase/Firestore. Registered users are able to post, update and delete property ads. All users can read the resources from the server.
   </p>
   <hr>
   <div class="project-stack">
@@ -53,7 +52,7 @@ draft: false
       </div>
   </div>
   <p class="project-description">
- I created this project as part of Andela BootCamp. It's an interactive prototype of an app that is a social platform for mentorship.The project is hosted on GitHub pages. Whilst its backend was deployed separately on Heroku.Please find more detail on the github link.
+ I created this project as part of Andela BootCamp Challenges. It's an interactive prototype of an app that is a social platform for mentorship. The UI is hosted on GitHub pages, whilst its backend was deployed separately on Heroku. Please find more detail on the github link.
   </p>
   <hr>
   <div class="project-stack">
@@ -78,8 +77,7 @@ draft: false
      </div>
   </div>
   <p class="project-description">
- My portfolio website was built using Hugo Static Generator. The UI design is a mix of the 90s fun vibe and modern minimalist web design patterns.
- It's a project that I am continuously working on and I derive so much pleasure from tweaking it every now and then.
+ My portfolio website was built using Hugo Static Generator. The UI design is a mix of the 90s fun vibe and modern minimalist web design patterns. It's a project that I am continuously working on and I derive so much pleasure from tweaking it every now and then.
   </p>
   <hr>
   <div class="project-stack">
@@ -104,8 +102,7 @@ draft: false
      </div>
   </div>
   <p class="project-description">
- My portfolio website was built using Hugo Static Generator. The UI design is a mix of the 90s fun vibe and modern minimalist web design patterns.
- It's a project that I am continuously working and I derive so much pleasure from tweaking it every now and then.
+ My portfolio website was built using Hugo Static Generator. The UI design is a mix of the 90s fun vibe and modern minimalist web design patterns. It's a project that I am continuously working and I derive so much pleasure from tweaking it every now and then.
   </p>
   <hr>
   <div class="project-stack">
@@ -114,6 +111,4 @@ draft: false
   </div>
   </div>
 </div>
-
-
-
+<div class=""></div>
