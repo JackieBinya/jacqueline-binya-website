@@ -46,8 +46,8 @@ draft: false
         <div class="project-github">
           <a class="article-link" href="https://github.com/JackieBinya/free-mentors-challenge-final"  target="_blank">github</a>
         </div>
-        <div class="project-url" href="https://jackiebinya.github.io/free-mentors-challenge-final/UI/"  target="_blank">
-        <a class="article-link">url</a>
+        <div class="project-url">
+        <a class="article-link"  href="https://jackiebinya.github.io/free-mentors-challenge-final/UI/"  target="_blank">url</a>
         </div>
       </div>
   </div>
@@ -94,15 +94,15 @@ draft: false
       </div>
       <div class="project-external-links">
         <div class="project-github">
-          <a class="article-link" href="https://github.com/JackieBinya/jacqueline-binya-website"  target="_blank">github</a>
+          <a class="article-link" href="https://github.com/JackieBinya/shopping-list-app"  target="_blank">github</a>
         </div>
         <div class="project-url">
-          <a class="article-link" href="https://jackiebinya.github.io/"  target="_blank">url</a>
+          <a class="article-link" href="https://youthful-wescoff-90f50a.netlify.app/"  target="_blank">url</a>
         </div>
      </div>
   </div>
   <p class="project-description">
- My portfolio website was built using Hugo Static Generator. The UI design is a mix of the 90s fun vibe and modern minimalist web design patterns. It's a project that I am continuously working and I derive so much pleasure from tweaking it every now and then.
+ I created this project last year as I was learning Vuejs. It a simple app where users can perform basic CRUD operations as they plan and do their shopping. I especially enjoyed building this project because although simple as it may seem, it got me started on building apps using the Vuejs ecosystem.
   </p>
   <hr>
   <div class="project-stack">
@@ -120,6 +120,6 @@ draft: false
     <p>
      If you have an interesting job opportunity that might be a good fit for me, please definitely get in touch. You may download my resume below to learn a little bit more about my background and work experience. My contact information is also listed in the resume.
     </p>
-    <a  class="job-marketing_resume" href="/resume/JacquelineBinya-CV.pdf" download="Jacqueline-Binya-Resume">Resume</a>
+    <a  class="article-link" href="/resume/JacquelineBinya-CV.pdf" download="Jacqueline-Binya-Resume">Resume</a>
   </div>
 </section>
