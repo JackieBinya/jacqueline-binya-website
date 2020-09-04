@@ -120,6 +120,6 @@ draft: false
     <p>
      If you have an interesting job opportunity that might be a good fit for me, please definitely get in touch. You may download my resume below to learn a little bit more about my background and work experience. My contact information is also listed in the resume.
     </p>
-    <a  class="job-marketing_resume" href="/">Resume</a>
+    <a  class="job-marketing_resume" href="/resume/JacquelineBinya-CV.pdf" download="Jacqueline-Binya-Resume">Resume</a>
   </div>
 </section>
