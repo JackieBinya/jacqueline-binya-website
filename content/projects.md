@@ -102,7 +102,7 @@ draft: false
      </div>
   </div>
   <p class="project-description">
- I created this project last year as I was learning Vuejs. It a simple app where users can perform basic CRUD operations as they plan and do their shopping. I especially enjoyed building this project because although simple as it may seem, it got me started on building apps using the Vuejs ecosystem.
+ I created this project last year as I was learning Vuejs. Its a simple app, where users can perform basic CRUD operations as they plan and do their shopping. I especially enjoyed building this project because although simple as it may seem, it got me started on building apps using the Vuejs ecosystem.
   </p>
   <hr>
   <div class="project-stack">
