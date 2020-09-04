@@ -27,7 +27,7 @@ draft: false
       </div>
   </div>
   <p class="project-description">
-   A property market place where users can find and post residential properties for free. I built this app using Reactjs, React Hooks, Fusejs, and Firebase/Firestore. Registered users are able to post, update and delete property ads. All users can read the resources from the server.
+   A property market place where users can find and post residential properties for free. I built this app using Reactjs, React Hooks, Fusejs, and Firebase/Firestore. Registered users are able to post, update and delete property ads. All users can view listed property ads.
   </p>
   <hr>
   <div class="project-stack">
