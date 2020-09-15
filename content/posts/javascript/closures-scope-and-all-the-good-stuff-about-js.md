@@ -4,6 +4,8 @@ date: 2020-09-05T21:05:11+02:00
 draft: false
 ---
 
+_This blog post is a draft_
+
 ## Objectives
 
 This article was written to help explain a topic which is an interview staple for Javascript developers.
