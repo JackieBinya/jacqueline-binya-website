@@ -4,8 +4,6 @@ date: 2020-09-05T21:05:11+02:00
 draft: false
 ---
 
-_This blog post is a draft_
-
 ## Objectives
 
 This article was written to help explain a topic which is an interview staple for Javascript developers.
@@ -34,7 +32,7 @@ On that basis of the given definition of a block, it follows that _functions_, _
 
 ### Local and Global Variables
 
-One thing thats important to mention is that whenever variables are defined in Javascript its either they are are defined inside a block or independent of a block.When a variable is defined inside a block it is _local_ in reference to that block. A global variable is one whose scope is global.
+ In Javascript variables are either declared inside a block or independent of a block. When a variable is declared inside a block it is _local_ in reference to that block. A global variable is one whose scope is global.
 
 
 ## What then is scope ?
@@ -48,29 +46,23 @@ The scope of a variable is determined by:
 
 ### Types of scope
 
-1. Global scope: These are the variables which are accessible throughout the window object or globally within your script.
+1. Global scope: globally scoped variables are accessible throughout the window object or globally within your script.
 
-2. Block scope: block scoped variables are variables that when declared inside of a block are only accessible within that block. The block referenced too being a _generic block_ or a block which is part of a _loop_ or an _if statement_ or a _function_. So essentially _const_ and _let_ variables can either be _globally scoped_ if declared outside of a block or _block scoped_ when declared inside of a block. When _var_ variables are declared in blocks which aren't functions they their scope is global.
+2. Block scope: block scoped variables are variables that when declared inside of a block are only accessible within that block. The block referenced to, being a _generic block_ or a block which is part of a _loop_ or an _if statement_ or a _function_. So essentially _const_ and _let_ variables can either be _globally scoped_ if declared outside of a block or _block scoped_ when declared inside of a block. When _var_ variables are declared in blocks which aren't functions, their scope is global.
 
 In the screenshot below I declared a couple of variables, I suggest you go to your text editor and create a _main.js_ file and copy the contents of the screenshot and modify them to your liking.
-
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1599466095/js-closures-tut/scope-example_ghtmaq.png" alt="Illustrating scope in Javascript">
-
 Now to execute _main.js_ file, type the command below in your terminal:
 
 ```
 node main.js
-
-
 ```
-
 The expected results are shown in the screenshot below:
-
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1599467585/js-closures-tut/scope-terminal_result_o3dz6n.png" alt="Results on the terminal">
-
 The variables _name_, _lastName_ and _isSoftwareDeveloper_ are declared independent of a block. These are known as global variables and they have global scope. 
-
 Variables _hobbies_ and _countryOfResidence_ are local to a block in which they were declared but, although _hobbies_ has global scope  _countryOfResidence_ is block scoped.
+
+
 
 3. Functional Scope: functionally scoped variables are variables that when declared inside of a function they are only accessible within that function, if the same variable was declared in any other block e.g. an _if statement_ and it was accessible only within that block as well. Its scope is then described as being block scoped. So essentially _functional scope_ is a special type of _block scope_ used to describe the scope of _var_ variables declared inside functions. A _var_ variable is always globally scoped otherwise it is _functionally scoped_ if declared inside of a function.
 
@@ -85,10 +77,12 @@ To truly understand closures we need to have a basic understanding of how the Ja
 
 Closures are functions which have references to variables in their lexical environment.
 
-Lets reconsider the screenshot provided above, when the file is executed internally what happens is that the javascript engine parses _main.js_ line by line. When it reaches the point in the script where the _outer_ function is invoked it creates a context associated with it. When it eventually executes the _inner_ function is creates an execution context associated with it as well. Now as it was verified about the variables of the _outer_ function are always accessible inside the _inner_ function, even when the outer function's execution context has been removed from memory. Let's see how that is possible:
+Lets reconsider the screenshot provided above, when the file is executed internally what happens is that the javascript engine parses _main.js_ line by line. When it reaches the point in the script where the _outer_ function is invoked it creates a context associated with it. When the javascript engine eventually executes the _inner_ function is creates an execution context associated with it as well. Now as it was verified above, the variables of the _outer_ function are always accessible inside the _inner_ function, even when the outer function's execution context has been removed from memory. Let's see how that is possible:
 
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1600121543/js-closures-tut/closures_bdxhjn.png" alt="Closures example">
 
-So, essentially we have seen that the _inner_ function (which is a closure ) is invoked its execution context's contains a reference to the _outer_ function's variables.
+So, we have seen that when the _inner_ function (which is a closure ) is invoked its execution context's contains a reference to the _outer_ function's variables which has already been returned.
 
-_Happy Coding !!!_
+_It is my hope that this article has helped you understand closures in javascript._
+
+_Happy Coding  😉!!!_
