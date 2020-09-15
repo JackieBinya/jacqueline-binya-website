@@ -21,6 +21,7 @@ A variable in Javascript is an entity that is used to refer to data stored in me
 
  <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1599441833/js-closures-tut/Defining_variables_in_JS_1_uom50u.png" alt="Defining variables in Javascript">
 
+_To learn more about variable declaration, initialization,  data types and hoisting check out this <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables" class="article-link" target="_blank">link</a>. It contains resources published by <a href="https://developer.mozilla.org/en-US/" class="article-link" target="_blank">mozilla (MDN)</a>._
 
 ### Block
 
@@ -72,16 +73,16 @@ Variables _hobbies_ and _countryOfResidence_ are local to a block in which they 
 
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1600118955/js-closures-tut/lexical_scope_c8rcm4.png" alt="Lexical scope example">
 
-## Finally what then are closures ?
+## Finally, what then are closures ?
 To truly understand closures we need to have a basic understanding of how the Javascript engine executes functions. So, whenever a function is invoked an execution context associated with the function is created. An execution context contains meta data about the function and all its associated variables. Upon execution of the function all the meta data associated with the function is then removed from the memory, what is often refereed to as garbage collection.
 
-Closures are functions which have references to variables in their lexical environment.
+>Closures are functions which have references to variables in their lexical environment.
 
-Lets reconsider the screenshot provided above, when the file is executed internally what happens is that the javascript engine parses _main.js_ line by line. When it reaches the point in the script where the _outer_ function is invoked it creates a context associated with it. When the javascript engine eventually executes the _inner_ function is creates an execution context associated with it as well. Now as it was verified above, the variables of the _outer_ function are always accessible inside the _inner_ function, even when the outer function's execution context has been removed from memory. Let's see how that is possible:
+Let's reconsider the screenshot provided above, when the file is executed internally what happens is that the javascript engine parses _main.js_ line by line. When it reaches the point in the script where the _outer_ function is invoked it creates a context associated with it. When the javascript engine eventually executes the _inner_ function is creates an execution context associated with it as well. Now as it was verified above, the variables of the _outer_ function are always accessible inside the _inner_ function, even when the outer function's execution context has been removed from memory. Let's see how that is possible:
 
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1600121543/js-closures-tut/closures_bdxhjn.png" alt="Closures example">
 
-So, we have seen that when the _inner_ function (which is a closure ) is invoked its execution context's contains a reference to the _outer_ function's variables which has already been returned.
+So, we have seen that when the _inner_ function (which is a closure) is invoked its execution context's contains a reference to the _outer_ function's variables, despite the fact that the _outer_ function has already been returned.
 
 _It is my hope that this article has helped you understand closures in javascript._
 
