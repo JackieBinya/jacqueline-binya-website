@@ -2,6 +2,7 @@
 title: "Closures, Scope and All the Good Stuff About Javascript"
 date: 2020-09-05T21:05:11+02:00
 draft: false
+tags: ["interview-prep", "javascript"]
 ---
 
 ## Objectives
