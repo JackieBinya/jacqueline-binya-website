@@ -70,7 +70,7 @@ Variables _hobbies_ and _countryOfResidence_ are local to a block in which they 
 
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1600108316/js-closures-tut/functional_scope_wflflh.png" alt="Functional scope examples">
 
-4. Lexical Scope: given a scenario where we have a group of nested function, lexical scope means that the inner functions have access to the variables and/or resources of the outer function even after the outer function is returned.
+4. Lexical Scope: given a scenario where we have a group of nested functions, lexical scope means that the inner functions have access to the variables and/or resources of the outer function even after the outer function is returned.
 
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1600118955/js-closures-tut/lexical_scope_c8rcm4.png" alt="Lexical scope example">
 
@@ -79,7 +79,7 @@ To truly understand closures we need to have a basic understanding of how the Ja
 
 >Closures are functions which have references to variables in their lexical environment.
 
-Let's reconsider the screenshot provided above, when the file is executed internally what happens is that the javascript engine parses _main.js_ line by line. When it reaches the point in the script where the _outer_ function is invoked it creates a context associated with it. When the javascript engine eventually executes the _inner_ function is creates an execution context associated with it as well. Now as it was verified above, the variables of the _outer_ function are always accessible inside the _inner_ function, even when the outer function's execution context has been removed from memory. Let's see how that is possible:
+Let's reconsider the screenshot provided above, when the file is executed internally what happens is that, the javascript engine parses _main.js_ line by line. When it reaches the point in the script where the _outer_ function is invoked it creates a context associated with it. When the javascript engine eventually executes the _inner_ function is creates an execution context associated with it as well. Now as it was verified above, the variables of the _outer_ function are always accessible inside the _inner_ function, even when the outer function's execution context has been removed from memory. Let's see how that is possible:
 
 <img src="https://res.cloudinary.com/di70zcupa/image/upload/v1600121543/js-closures-tut/closures_bdxhjn.png" alt="Closures example">
 
