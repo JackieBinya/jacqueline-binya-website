@@ -16,9 +16,9 @@ I just finished my first tutorial on <a href= "" class="article-link">EDX</a>. I
 - I have been insanely busy and,
 - I have been feeling overwhelmed lately about the ton of stuff I have to learn as a developer. When you hear people say as that _As a developer the learning never stops_, its not a cliche.
 
- But the good news is: I have since developed a strategy to deal with the anxiety of associated with handling a lot of work responsibilities whilst trying to maintain a healthy life balance. I now keep a calender to manage and track my work. I set up weekly goals which I then breakdown to small daily tasks which are achievable. Adjusting my attitude towards learning has been helpful as well, I have since reconciled with the fact that if I am serious about being a developer: consistently learning new things has to become part of my lifestyle. 
+ But the good news is: I have since developed a strategy to deal with the anxiety of associated with handling a lot of work responsibilities whilst trying to maintain a healthy life balance. I now keep a calender to manage and track my work. I set up weekly goals which I then breakdown into small daily tasks which are achievable. Adjusting my attitude towards learning has been helpful as well, I have since reconciled with the fact that if I am serious about being a developer: consistently learning new things has to become part of my lifestyle. 
  
- Lastly one thing that I feel is even important to mention is that I practice a little kindness towards myself and I also have a reward system in place. So, am really looking forward to that holiday in Capetown🧳🐳👙.
+ Lastly one thing that I feel is important to mention is that I practice a kindness towards myself. If for any reason I fail to achieve a goal I journal the experience and give an account of how and where I struggled, then adjust my goal. I'm basically my own mentor. I also have a reward system in place. So, am really looking forward to that holiday in Capetown🧳🐳👙.
 
 
 
