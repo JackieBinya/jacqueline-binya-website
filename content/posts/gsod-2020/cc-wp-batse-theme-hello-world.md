@@ -1,6 +1,7 @@
 ---
 title: "CC WP Base Theme Docs-GSOD-2020: Hello World🚀"
 date: 2020-09-29T18:50:55+02:00
+tags: ["gsod"]
 draft: false
 ---
 
@@ -13,10 +14,10 @@ My name is Jacqueline Binya. I am a software developer and technical writer from
 The Google Season of the Docs was born out of a need to improve the quality of open-source documentation as well as to advocate for open source, for documentation, and for technical writing. Annually during the GSOD, technical writers are invited to contribute to open-source projects through a highly intensive process geared at ensuring that the technical writers and the projects they contribute to during GSOD are a good fit, after that has been determined GSOD then resumes.
 
 ## Building the docs
-The CC WP Base theme is a WordPress theme used to create front-facing Creative Commons (CC) websites. My task is to collaborate with the engineering team in creating community facing docs for the theme.
+The CC WP Base theme is a WordPress theme used to create front-facing Creative Commons (CC) websites. My task is to collaborate with the engineering team to create community facing docs for the theme.
 
 ### Guiding principles
-The docs should be inclusive meaning: they should be written in an easy-to-understand manner taking care to avoid the use of excessive technical jargon, they should be accessible and they should have support for internationalization. We hope to provide our users with a smooth and memorable experience whilst using the docs hence the docs site must be fast and easy to navigate.
+The docs should be inclusive meaning: they should be written in an easy-to-understand manner taking care to avoid the use of excessive technical jargon, they should be accessible and they should have support for internationalization. We hope to provide our users with a smooth and memorable experience whilst using the docs hence the docs site should be fast and easy to navigate.
 
 ### Technical stack of the project
 We decided to build the docs using <a href="https://jamstack.org/" class="article-link">Jamstack</a> to be specific we are using  <a href="https://gridsome.org/" class="article-link">Gridsome</a> a static generator for <a href="https://vuejs.org/" class="article-link">Vuejs</a>. We are using Gridsome as it is highly performant, and it also integrates smoothly with the <a href="https://cc-vocabulary.netlify.app/" class="article-link"> CC Vocabulary </a>. Gridsome also has out-of-the-box support for important features like Google Analytics and <a href="https://www.algolia.com/" class="article-link">Angolia</a>, these features will obviously become useful in future iterations of the docs.To quickly scaffold the docs we used a Gridsome theme called <a href="https://gridsome.org/starters/jamdocs/" class="article-link">JamDocs</a>.
