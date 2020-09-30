@@ -1,5 +1,5 @@
 ---
-title: "Launch🚀"
+title: "CC WP Base Theme Docs-GSOD-2020: Hello World🚀"
 date: 2020-09-29T18:50:55+02:00
 draft: false
 ---
