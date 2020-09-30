@@ -29,3 +29,5 @@ Currently, the project is on track. As it's been stated we are creating the docs
 - Always ask questions: frankly, the only way you can create good content is when you have a solid understanding of the subject matter.
 - It's better to over-communicate than under-communicate especially when working in a remotely - this is especially more important if you encounter blockers whilst executing your work.
 - Push that code and open PR quickly and then go ahead and ask for a review don't procrastinate this will ensure  fast turnover you get feedback quickly and can work on improvements.
+
+_Thank you for reading, watch out for the next update which will be posted soon._
