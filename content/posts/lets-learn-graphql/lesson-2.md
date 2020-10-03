@@ -42,11 +42,9 @@ Say we have a blogging application, such that for each blogger’s page:  we ren
 - The graphql processes the request and manipulates the database and then sends a response which is JSON object.
 
 **Differences between Rest and GraphQL**
-- Eliminate the problem of Overfetching and Underfetching
-_Overfetching:_
-Describes a scenario that happens when querying a Restful server and we end up downloading unnecessary data into our app.
-_Underfetching:_
-The response to the query made to a specific endpoint returns insufficient data that the client has to make  (n+1) requests just to get sufficient data.
+- Eliminate the problem of Overfetching and Underfetching:
+    - _Overfetching_: Describes a scenario that happens when querying a Restful server and we end up downloading unnecessary data into our app.
+    - _Underfetching_: The response to the query made to a specific endpoint returns insufficient data that the client has to make  (n+1) requests just to get sufficient data.
 
 - Graphql allows for low-level monitoring of the requests made to the server. It uses resolver functions to resolve queries made by the client. These can be monitored so as to analyze the application.
 - GraphQL uses a strong type system once types are described in the schema the frontend developers can mock an API and continue working on the client-side whilst the backend engineers continue to build the backend.
