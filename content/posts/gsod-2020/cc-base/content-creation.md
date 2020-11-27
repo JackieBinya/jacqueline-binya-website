@@ -1,14 +1,14 @@
 ---
-title: "Content Creation Phase: Creative Commons WordPress Theme Base Usage Guide"
+title: "Content Creation Phase: Creative Commons Base Usage Guide"
 date: 2020-11-18T01:24:54+02:00
 tags: ["gsod"]
 draft: false
 ---
 
-For the past couple of weeks we have been actively creating content for the Creative Commons WordPress Base Theme Usage Guide. Currently the draft content is under final review before it is migrated to the main docs site.
+For the past couple of weeks we have been actively creating content for the Creative Commons Base Usage Guide. Currently the draft content is under final review before it is migrated to the main docs site.
 
 ## Our Strategy
-Our main goal in creating the docs is to create rich, intuitive, engaging, and beautifully presented community facing documentation for the Creative Commons WordPress Theme Base. 
+Our main goal in creating the docs is to create rich, intuitive, engaging, and beautifully presented community facing documentation for the Creative Commons Base. 
 
 In alignment with the defined goal, our core focus is to create the docs collaboratively.
 

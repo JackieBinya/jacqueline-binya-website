@@ -1,5 +1,5 @@
 ---
-title: "CC WP Theme Base Docs-GSOD-2020: Hello World🚀"
+title: "CC Base Docs-GSOD-2020: Hello World🚀"
 date: 2020-09-29T18:50:55+02:00
 tags: ["gsod"]
 draft: false
@@ -7,14 +7,14 @@ draft: false
 
 > I am participating in the Google Season of Docs 2020 as a technical writer. I am contributing to Creative Commons.
 
-My name is Jacqueline Binya. I am a software developer and technical writer from Zimbabwe. I am going to write a series of blog posts documenting my experience and lessons as I  contribute to the <a class="article-link" href="https://github.com/creativecommons/wp-theme-base"> Creative Commons WordPress Theme Base(CC WP Theme Base) </a> during the <a class="article-link" href="https://developers.google.com/season-of-docs">Google Season of Docs (GSOD-2020) </a> as a technical writer.
+My name is Jacqueline Binya. I am a software developer and technical writer from Zimbabwe. I am going to write a series of blog posts documenting my experience and lessons as I  contribute to the <a class="article-link" href="https://github.com/creativecommons/wp-theme-base"> Creative Commons Base(CC Base) </a>during the <a class="article-link" href="https://developers.google.com/season-of-docs">Google Season of Docs (GSOD-2020) </a> as a technical writer.
 
 ## What is Google Season of Docs?
 
 The Google Season of the Docs was born out of a need to improve the quality of open-source documentation as well as to advocate for open source, for documentation, and for technical writing. Annually during the GSOD, technical writers are invited to contribute to open-source projects through a highly intensive process geared at ensuring that the technical writers and the projects they contribute to during GSOD are a good fit, after that has been determined GSOD then resumes.
 
 ## Building the docs
-The CC WP Theme Base is a WordPress theme used to create front-facing Creative Commons (CC) websites. My task is to collaborate with the engineering team to create community facing docs for the theme.
+The CC Base is a WordPress theme used to create front-facing Creative Commons (CC) websites. My task is to collaborate with the engineering team to create community facing docs for the theme.
 
 ### Guiding principles
 The docs should be inclusive meaning: they should be written in an easy-to-understand manner taking care to avoid the use of excessive technical jargon, they should be accessible and they should have support for internationalization. We hope to provide our users with a smooth and memorable experience whilst using the docs hence the docs site should be fast and easy to navigate.
