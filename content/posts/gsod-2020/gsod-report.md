@@ -94,4 +94,4 @@ The docs are live 🎉 and are found this url: https://cc-wp-theme-base.netlify.
 - Working as part of a remotely distributed team I learned a lot about best practices for effective async communication.
 - I also learned about etiquette of participating in online meetings 
 - I was writing prior to gsod but contributing to an org like creative commons in a team with senior developers there was a lot of transfer or knowledge as consequence my writing has immensely improved.
-- I learned a new technology: WordPress. This was a challenging feat but I am happy  that I persisted and grateful for all the help I got from my team.
+- I learned a new technology: WordPress. This was a challenging feat but I am happy that I persisted and grateful for all the help I got from my team.
