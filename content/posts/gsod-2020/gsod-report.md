@@ -8,15 +8,15 @@ draft: false
 
 > Prepared by Jacqueline Binya on 29 November 2020
 
-During the Google Season of Docs (GSOD) 2020, I contributed to the Creative Commons(CC) Organization's _WordPress base theme usage guide_ project.
+During the Google Season of Docs (GSOD) 2020, I contributed to the Creative Commons' _WordPress base theme usage guide_ project.
 
-<a href="https://github.com/creativecommons/creativecommons-base" class="article-link">Creative Commons Base</a> is a universal WordPress Theme used to build front facing websites for CC. My role as a technical writer was to create community facing documentation for the CC Base theme collaboratively with the engineering team.
+<a href="https://github.com/creativecommons/creativecommons-base" class="article-link">Creative Commons (CC) Base</a> is a universal WordPress Theme used to build front facing websites for CC. My role as a technical writer was to create community facing documentation for the CC Base theme collaboratively with the engineering team.
 
 This involved creating the content for the docs, creating all illustrative media and also building the site used to host the documentation.
 
 ## Planning - Community Bonding phase
 
-During the GSOD - Community Bonding phase I had a meeting with my mentor Hugo Solar in which we strategized on how to effectively build the docs: this included refining and polishing up our objectives for the project and establishing a workflow for doc development.
+During the GSOD - Community Bonding phase, I had a meeting with my mentor Hugo Solar in which we strategized on how to effectively build the docs: this included refining and polishing up the project's objectives and action plan based off the <a href="https://docs.google.com/document/d/1XmIsMTLstbhRRSaNFP538YOXJiS0G5QrN6EzuqJfRy4/edit" class="article-link">proposal</a> I submitted for my GSOD application and, also establishing a workflow for doc development.
 
 We decided to:
 - Create a <a href="https://docs.google.com/document/d/1XmIsMTLstbhRRSaNFP538YOXJiS0G5QrN6EzuqJfRy4/edit?usp=sharing" class="article-link">Google Doc</a> to persist all the draft content which was accessible to all the team members
@@ -24,17 +24,11 @@ We decided to:
 - I prepared <a href="https://www.figma.com/file/roAl4FwMwFQHhSDHpm9rk5/CC-WP-theme-frame?node-id=0%3A1" class="article-link">wireframes</a> for the docs site.
 - We chose a documentation tool we wanted to use to build the docs site.
 
-Onboarding learning about cc commons workflow
-Weekly mentor sessions with mentor
-Monthly sessions with cc engineering manager
-Taking part in all community meetings 
-Establishing community channels 
-
 ## We Create the Docs - Content Creation
 
-To build the docs site we used <a href="https://gridsome.org/starters/jamdocs/" class="article-link">JamDocs</a>, a <a href="https://gridsome.org/" class="article-link">Gridsome</a> theme to quickly scaffold the site. We had to adapt the theme so as to make it meet our own specific needs, this involved overhauling the styles and changing the functionality of some of the features in the theme.
+To build the docs site we used <a href="https://gridsome.org/starters/jamdocs/" class="article-link">JamDocs</a> a <a href="https://gridsome.org/" class="article-link">Gridsome</a> theme. We had to adapt the theme so as to make it meet our own specific needs, this involved overhauling the styles and changing the functionality of some of the features in the theme.
 
-With regards to the doc development process we decided that the initial stage would be to discuss the content for the section we were working on that particular week during our weekly sync meeting, the next I would create draft content in a Google Doc  during the course of the week. My mentors would then review the draft and suggest changes asynchronously then I would then implement feedback gathered. Once the draft content was approved I then would migrate it to the docs site.
+With regards to the doc development process: we decided that the first stage in doc development would be to discuss the content for the section we were working on that particular week during our weekly sync meeting, then next I would create draft content in a Google Doc during the course of the week. My mentors would then review the draft and suggest changes asynchronously, then I would then implement feedback gathered. Once the draft content was approved I then would migrate it to the docs site.
 
 The mentors were readily available to answer questions on various communication channels and promptly gave me the assistance I required.
 
@@ -92,6 +86,6 @@ The docs are live 🎉 and are found this url: https://cc-wp-theme-base.netlify.
 ## My lessons
 
 - Working as part of a remotely distributed team I learned a lot about best practices for effective async communication.
-- I also learned about etiquette of participating in online meetings 
+- I also learned about etiquette of participating in online meetings: this was especially important skill to learn in 2020 as remote work has since become the norm.
 - I was writing prior to gsod but contributing to an org like creative commons in a team with senior developers there was a lot of transfer or knowledge as consequence my writing has immensely improved.
 - I learned a new technology: WordPress. This was a challenging feat but I am happy that I persisted and grateful for all the help I got from my team.
