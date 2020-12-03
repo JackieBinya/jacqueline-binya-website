@@ -1,12 +1,12 @@
 ---
-title: "Project Report GSOD-2020 "
+title: "My Google Season of Docs(GSOD) experience in a nutshell "
 date: 2020-12-03T05:28:31+02:00
 tags: ["gsod"]
 draft: false
 ---
 
 
-> Prepared by Jacqueline Binya on 29 November 2020
+> A GSOD-2020 project report prepared by Jacqueline Binya on 29 November 2020
 
 During the Google Season of Docs (GSOD) 2020, I contributed to the Creative Commons' _WordPress base theme usage guide_ project.
 
@@ -16,7 +16,7 @@ This involved creating the content for the docs, creating all illustrative media
 
 ## Planning - Community Bonding phase
 
-During the GSOD - Community Bonding phase, I had a meeting with my mentor Hugo Solar in which we strategized on how to effectively build the docs: this included refining and polishing up the project's objectives and action plan based off the <a href="https://docs.google.com/document/d/1XmIsMTLstbhRRSaNFP538YOXJiS0G5QrN6EzuqJfRy4/edit" class="article-link">proposal</a> I submitted for my GSOD application and, also establishing a workflow for doc development.
+During the GSOD - Community Bonding phase, I had a meeting with my mentor Hugo Solar in which we strategized on how to effectively build the docs: this included refining and polishing up the project's objectives and action plan based off the <a href="https://docs.google.com/document/d/1XmIsMTLstbhRRSaNFP538YOXJiS0G5QrN6EzuqJfRy4/edit" class="article-link">proposal</a> I submitted for my GSOD application and also, establishing a workflow for doc development.
 
 We decided to:
 - Create a <a href="https://docs.google.com/document/d/1XmIsMTLstbhRRSaNFP538YOXJiS0G5QrN6EzuqJfRy4/edit?usp=sharing" class="article-link">Google Doc</a> to persist all the draft content which was accessible to all the team members
@@ -28,7 +28,7 @@ We decided to:
 
 To build the docs site we used <a href="https://gridsome.org/starters/jamdocs/" class="article-link">JamDocs</a> a <a href="https://gridsome.org/" class="article-link">Gridsome</a> theme. We had to adapt the theme so as to make it meet our own specific needs, this involved overhauling the styles and changing the functionality of some of the features in the theme.
 
-With regards to the doc development process: we decided that the first stage in doc development would be to discuss the content for the section we were working on that particular week during our weekly sync meeting, then next I would create draft content in a Google Doc during the course of the week. My mentors would then review the draft and suggest changes asynchronously, then I would then implement feedback gathered. Once the draft content was approved I then would migrate it to the docs site.
+With regards to the doc development process: Its important to mention that the GSOD spans for 13 weeks and in the <a href="https://docs.google.com/document/d/1XmIsMTLstbhRRSaNFP538YOXJiS0G5QrN6EzuqJfRy4/edit" class="article-link">proposal</a> each week's expected deliverables are outlined. So to develop the docs for each week we would start off with a team meeting to discuss the content for the section we were working on that particular week, then next I would create draft content in a Google Doc during the course of the week. My mentors would then review the draft and suggest changes asynchronously, then I would then implement feedback gathered. Once the draft content was approved I then would migrate it to the docs site.
 
 The mentors were readily available to answer questions on various communication channels and promptly gave me the assistance I required.
 
