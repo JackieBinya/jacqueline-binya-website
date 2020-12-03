@@ -1,6 +1,7 @@
 ---
 title: "Project Report GSOD-2020 "
 date: 2020-12-03T05:28:31+02:00
+tags: ["gsod"]
 draft: false
 ---
 
