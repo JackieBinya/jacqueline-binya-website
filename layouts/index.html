@@ -17,10 +17,8 @@
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h1>
           
-            <div class="post-pagination-wrapper">
-                <p class="post-pagination"><time>{{ .Date.Format "January 2, 2006" }}</time> . ☕&nbsp;
+            <p class="post-pagination"><time>{{ .Date.Format "January 2, 2006" }}</time> . ☕&nbsp;
                     {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} min {{ else }} mins {{ end }} read</p>
-            </div>
         </header>
 
         <div class="content">
