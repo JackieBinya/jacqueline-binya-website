@@ -1,6 +1,7 @@
 ---
 title: "Featured Projects"
 draft: false
+layout: "staticpage"
 ---
 
 <!-- <a href="https://jackiebinya.github.io/free-mentors-challenge-final/UI/" target="_blank" class="social-link">
