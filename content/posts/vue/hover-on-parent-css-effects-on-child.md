@@ -17,4 +17,10 @@ I came across a very peculiar and interesting problem as I was trying to style t
 In the video that is embedded below, we have a simple navigation bar built using Vuejs. It has two menu items which are namely _Item One_ and _Item Two_. _Item Two_ has two sub menu items which are namely _Sub Menu 1_ and _Sub Menu 2_.
 We want to emulate the functionality of _Item Two_ such that when you hover over _Item Two_  the sub menu becomes visible so you can navigate to the sub menu items and even click them to be redirected to a new page.But in the event that leave _Item Two_ or any of its sub menu items the sub menu disappears.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KTGg4pxiRBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/KTGg4pxiRBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## The Solution
+
+### Using CSS
+
+### Using Javascript
