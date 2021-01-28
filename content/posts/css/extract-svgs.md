@@ -1,7 +1,7 @@
 ---
 title: "Using SVGs in Vuejs made simple"
 date: 2021-01-04T02:19:11+02:00
-draft: true
+draft: false
 ---
 
 ## Images of the web
