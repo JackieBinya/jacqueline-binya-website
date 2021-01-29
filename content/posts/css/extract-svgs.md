@@ -80,18 +80,77 @@ The message contains handy command to get you started!
 </pre>
 
 - I have created a sample SVG to use in our tutorial. You may go ahead and download it by clicking this 
-<a href="/posts/css/svg-sample.svg" download="Using SVG in Vuejs" class="article-link">link</a>.
+<a href="/posts/css/svg-sample.svg" download="Using SVG in Vuejs" class="article-link">link</a>. You may choose to rename the file, then proceed to add it to the root of the `src` directory. Such that the structure of the `src` folder is similar to the one below:
+<pre>
+.
+├── App.vue
+├── assets
+│   ├── logo.png
+│   └── sample.svg
+├── components
+│   └── HelloWorld.vue
+└── main.js
+</pre>
 
 #### Inline SVG
-When using this method you just include the `svg` directly in the template. Its important to mention that when the `svg` is directly embedded in the document or template as in the case of Vuejs there is no need to include the `xlmns` attribute. The main drawback of this method is that when you have a lot of `svg` your template becomes cluttered. In that case it would be better incorporate SVGs as standalone files as it is explained in the next section.
+
+![Inline SVG in Vuejs](https://res.cloudinary.com/di70zcupa/image/upload/v1611922129/inline-svg_jlerxx.png)
+
+When using this method you include the `svg` directly in your markup. It's important to mention that when the `svg` is directly embedded in the document or template as in the case of Vuejs ,there is no need to include the `xlmns` attribute.
+
+The pros of using this method are that you can use CSS to style your `svg` and use Javascript to extend its functionality just as you would a normal HTML element.
+
+The main drawback of this method is that if your `svg` is large or when you have a lot of `svg` your template, your template becomes cluttered. In that case it would be better incorporate SVGs as standalone files as it is explained in the next section.
+
 #### External SVG
-In this method you include the SVG in your project structure as a standalone `.svg` file. To embed the SVG in your Vuejs template you use the methods listed below:
+
+To embed the SVG in your Vuejs template you use the methods listed below:
 
 (i) Embedding an external svg as an image element in a Vuejs template:
 ![Embedding an external svg as an image element in a Vuejs template](https://res.cloudinary.com/di70zcupa/image/upload/v1611904084/svg-img-implementantion_bhxx8s.png)
 
+_Note you replace the `<file-name>` with the unique name you gave to the image resource you downloaded in this section._
+
+Using this method limits how you can manipulate the `svg` as it really doesn't exist in the document but it is encapsulated in the <img> element. So at most you can only manipulate it as you would a normal image.
+
+The cons of this method include limitations in styling and in functionality of SVGs and in addition to that if you are dealing with a lot of SVGs in your template it becomes rather cumbersome to keep wrapping them in image elements.
+
 (ii) Using `SVG Loaders`
-Vuejs uses Webpack as an asset bundler. Webpack uses a loader for each file type it handles. The loaders for the common file types usually come pre-configured in the event you use Vue CLI to bootstrap your project. But unfortunately `.svg` file types are not pre-configured so to read them in your project you have to download specify vue svg loaders.
+Vuejs uses Webpack as an asset bundler. Webpack uses a loader for each file type it handles. The loaders for the common file types usually come pre-configured whenever you use Vue CLI to bootstrap your project. What that means is that when you import those file types they can be automatically read.But unfortunately  `.svg` loaders do not come pre-configured so you have to download them from [npm](https://www.npmjs.com/) then configure them manually.
+
+There are many modules available on npm which are svg vuejs loaders. In this example we will be using the [vue-svg-loader](https://www.npmjs.com/package/vue-svg-loader). The set up instructions are listed in the link provided, for those who have never installed and configured a module in Vuejs follow the instructions below:
+
+_The instructions below are only suited for a project bootstrapped with Vue CLI._
+
+- To install the module type the command below in your terminal:
+```
+npm i -D vue-svg-loader vue-template-compiler
+```
+- In the root of you project directory, create a `vue.config.js` file and copy and past the code below:
+```
+module.exports = {
+  chainWebpack: (config) => {
+    const svgRule = config.module.rule('svg');
+ 
+    svgRule.uses.clear();
+ 
+    svgRule
+      .use('babel-loader')
+      .loader('babel-loader')
+      .end()
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader');
+  },
+};
+```
+Ensure that you save your changes.
+
+Congrats!!!🎊 You have successfully installed and configured the setting of the `vue-svg-loader`.
+
+Now, let's proceed to how we can use `vue-svg-loader` to incorporate SVG in Vuejs.
+
+![using SVG loaders to embed svg in Vuejs](https://res.cloudinary.com/di70zcupa/image/upload/v1611925461/using-svg-loader_ximunw.png)
+
 
 
 ### References
