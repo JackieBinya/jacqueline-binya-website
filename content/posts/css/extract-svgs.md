@@ -4,8 +4,6 @@ date: 2021-01-04T02:19:11+02:00
 draft: false
 ---
 
-> _Please note that this blog post is a living document in which I write notes as I learn about using SVG in Vuejs. I am mainly focused in the use of svg and hope to include topics like animation of SVG in a latter stage._
-
 ## Images of the web
 
 The most commonly used image formats in the web include bitmap, svg and webp.
@@ -52,15 +50,37 @@ Requirements:
 - [Vue CLI](https://cli.vuejs.org/)
 
 To create a Vuejs project:
-- On your terminal type `vue create <project-name>`. 
+- On your terminal type:
+```
+vue create <project-name>
+```
 Replace `<project-name>` with a unique name for your project. My project is name `svg-tutorial`.
 - You will then be prompted to pick a preset for your app, just press Enter to choose the default preset which at the time of publishing this article is: `Default ([Vue 2] babel, eslint)`.
 - Then wait as Vue CLI creates a Vuejs project for you.
+- When you project is successfully created you will get the message below in your terminal:
+![Successful vuejs project created](https://res.cloudinary.com/di70zcupa/image/upload/v1611909294/sucesssful-vuejs-install_ddlvl7.png)
+The message contains handy command to get you started!
+- Let's take a look at our project's file structure paying special attention to the `src` folder since most of our work pertaining to SVG will be restricted to that folder.
 
+<pre>
+.
+├── babel.config.js
+├── node_modules
+├── package.json
+├── package-lock.json
+├── public
+├── README.md
+└── src
+    ├── App.vue
+    ├── assets
+    │   └── logo.png
+    ├── components
+    │   └── HelloWorld.vue
+    └── main.js
+</pre>
 
-
-
-
+- I have created a sample SVG to use in our tutorial. You may go ahead and download it by clicking this 
+<a href="/posts/css/svg-sample.svg" download="Using SVG in Vuejs" class="article-link">link</a>.
 
 #### Inline SVG
 When using this method you just include the `svg` directly in the template. Its important to mention that when the `svg` is directly embedded in the document or template as in the case of Vuejs there is no need to include the `xlmns` attribute. The main drawback of this method is that when you have a lot of `svg` your template becomes cluttered. In that case it would be better incorporate SVGs as standalone files as it is explained in the next section.
