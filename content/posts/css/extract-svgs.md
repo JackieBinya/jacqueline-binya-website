@@ -14,7 +14,7 @@ Bitmap images are made up from tiny dots called pixels. Each pixel is actually a
 
 ### Webp
 
-This a highly perfomant image format create by Google.
+[Webp](https://developers.google.com/speed/webp) is a highly perfomant image format create by Google it was created to replace bitmap.
 
 ### SVG
 
@@ -57,7 +57,7 @@ vue create <project-name>
 Replace `<project-name>` with a unique name for your project. My project is name `svg-tutorial`.
 - You will then be prompted to pick a preset for your app, just press Enter to choose the default preset which at the time of publishing this article is: `Default ([Vue 2] babel, eslint)`.
 - Then wait as Vue CLI creates a Vuejs project for you.
-- When you project is successfully created you will get the message below in your terminal:
+- When you project is successfully created🎉, you will get the message below in your terminal:
 ![Successful vuejs project created](https://res.cloudinary.com/di70zcupa/image/upload/v1611909294/sucesssful-vuejs-install_ddlvl7.png)
 The message contains handy command to get you started!
 - Let's take a look at our project's file structure paying special attention to the `src` folder since most of our work pertaining to SVG will be restricted to that folder.
@@ -79,7 +79,7 @@ The message contains handy command to get you started!
     └── main.js
 </pre>
 
-- I have created a sample SVG to use in our tutorial. You may go ahead and download it by clicking this 
+- I have created a sample SVG to use in the interactive examples provided.. You may go ahead and download it by clicking this 
 <a href="/posts/css/svg-sample.svg" download="Using SVG in Vuejs" class="article-link">link</a>. You may choose to rename the file, then proceed to add it to the root of the `src` directory. Such that the structure of the `src` folder is similar to the one below:
 <pre>
 .
@@ -104,7 +104,7 @@ The main drawback of this method is that if your `svg` is large or when you have
 
 #### External SVG
 
-To embed the SVG in your Vuejs template you use the methods listed below:
+To embed the SVG in your Vuejs template you use the methods listed below and always ensure that the `xlmns` attribute is included in your root element otherwise none of the methods provided will work!
 
 (i) Embedding an external svg as an image element in a Vuejs template:
 ![Embedding an external svg as an image element in a Vuejs template](https://res.cloudinary.com/di70zcupa/image/upload/v1611904084/svg-img-implementantion_bhxx8s.png)
@@ -145,12 +145,20 @@ module.exports = {
 ```
 Ensure that you save your changes.
 
-Congrats!!!🎊 You have successfully installed and configured the setting of the `vue-svg-loader`.
+Congrats!!!🎊 
+You have successfully installed and configured the setting of the `vue-svg-loader`.
 
-Now, let's proceed to how we can use `vue-svg-loader` to incorporate SVG in Vuejs.
+Now, let's proceed to learn how we can use the `vue-svg-loader` module to embed SVG in Vuejs.
 
 ![using SVG loaders to embed svg in Vuejs](https://res.cloudinary.com/di70zcupa/image/upload/v1611925461/using-svg-loader_ximunw.png)
 
+- You first remove all the boilerplate code from the `App.vue` file in the `src` directory.
+- Then you copy and paste the code above in `App.vue` and save your changes.
+- The SGV I used exists as a standalone file in the assets folder as is named `sample.svg`, so depending on what you named your .svg file you may need to tweak the code above.
+
+The cons of using this method are:
+- Your template is kept clean,
+- And there are no limitations on how you can style or extend the functionality of your svg.
 
 
 ### References
