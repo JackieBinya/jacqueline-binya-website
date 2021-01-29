@@ -59,7 +59,7 @@ Replace `<project-name>` with a unique name for your project. My project is name
 - Then wait as Vue CLI creates a Vuejs project for you.
 - When you project is successfully created🎉, you will get the message below in your terminal:
 ![Successful vuejs project created](https://res.cloudinary.com/di70zcupa/image/upload/v1611909294/sucesssful-vuejs-install_ddlvl7.png)
-The message contains handy command to get you started!
+The message contains handy scripts to get you started!
 - Let's take a look at our project's file structure paying special attention to the `src` folder since most of our work pertaining to SVG will be restricted to that folder.
 
 <pre>
@@ -80,7 +80,10 @@ The message contains handy command to get you started!
 </pre>
 
 - I have created a sample SVG to use in the interactive examples provided.. You may go ahead and download it by clicking this 
-<a href="/posts/css/svg-sample.svg" download="Using SVG in Vuejs" class="article-link">link</a>. You may choose to rename the file, then proceed to add it to the root of the `src` directory. Such that the structure of the `src` folder is similar to the one below:
+<a href="/posts/css/svg-sample.svg" download="sample" class="article-link">link</a>. 
+
+You may choose to rename the file, then proceed to add it to the root of the `src` directory, such that the structure of the `src` folder is similar to the one below:
+
 <pre>
 .
 ├── App.vue
@@ -116,7 +119,7 @@ Using this method limits how you can manipulate the `svg` as it really doesn't e
 The cons of this method include limitations in styling and in functionality of SVGs and in addition to that if you are dealing with a lot of SVGs in your template it becomes rather cumbersome to keep wrapping them in image elements.
 
 (ii) Using `SVG Loaders`
-Vuejs uses Webpack as an asset bundler. Webpack uses a loader for each file type it handles. The loaders for the common file types usually come pre-configured whenever you use Vue CLI to bootstrap your project. What that means is that when you import those file types they can be automatically read.But unfortunately  `.svg` loaders do not come pre-configured so you have to download them from [npm](https://www.npmjs.com/) then configure them manually.
+Vuejs uses Webpack as an asset bundler. Webpack uses a loader for each file type it handles. The loaders for the common file types usually come pre-configured whenever you use Vue CLI to bootstrap your project. What that means is that when you import those file types they can be automatically read.But unfortunately `.svg` loaders do not come pre-configured so you have to download them from [npm](https://www.npmjs.com/) then configure them manually.
 
 There are many modules available on npm which are svg vuejs loaders. In this example we will be using the [vue-svg-loader](https://www.npmjs.com/package/vue-svg-loader). The set up instructions are listed in the link provided, for those who have never installed and configured a module in Vuejs follow the instructions below:
 
@@ -146,6 +149,7 @@ module.exports = {
 Ensure that you save your changes.
 
 Congrats!!!🎊 
+
 You have successfully installed and configured the setting of the `vue-svg-loader`.
 
 Now, let's proceed to learn how we can use the `vue-svg-loader` module to embed SVG in Vuejs.
@@ -155,11 +159,13 @@ Now, let's proceed to learn how we can use the `vue-svg-loader` module to embed 
 - You first remove all the boilerplate code from the `App.vue` file in the `src` directory.
 - Then you copy and paste the code above in `App.vue` and save your changes.
 - The SGV I used exists as a standalone file in the assets folder as is named `sample.svg`, so depending on what you named your .svg file you may need to tweak the code above.
-
+- Run the below on your terminal, and then on your browser visit ` http://localhost:8080/` to view the Vuejs app with the embedded SVG 🚀.
+```
+npm run serve
+```
 The cons of using this method are:
 - Your template is kept clean,
 - And there are no limitations on how you can style or extend the functionality of your svg.
-
 
 ### References
 1. <a href="https://youtu.be/hA7ESX7FsE4" class="article-link">What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified Episode 4<a>
