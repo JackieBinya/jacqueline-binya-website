@@ -15,7 +15,7 @@ Bitmap images are made up from tiny dots called pixels. Each pixel is actually a
 
 ### WebP
 
-[WebP](https://developers.google.com/speed/webp) is a highly perfomant image format create by Google it was created to replace bitmap.
+[WebP](https://developers.google.com/speed/webp) is a highly perfomant image format created by Google it was created to replace bitmap.
 
 ### SVG
 
