@@ -1,6 +1,7 @@
 ---
 title: "Using SVGs in Vuejs made simple"
 date: 2021-01-04T02:19:11+02:00
+tags: ['vuejs']
 draft: false
 ---
 
@@ -12,9 +13,9 @@ The most commonly used image formats in the web include bitmap, svg and webp.
 
 Bitmap images are made up from tiny dots called pixels. Each pixel is actually a square which is assigned a specific color and is arranged in a pattern to form the image. When you zoom in on a bitmap you can actually see each pixel. Image formats like JPEG, PNG and GIF are all bitmap. Bitmap format is suited for highly detailed images like photographs.
 
-### Webp
+### WebP
 
-[Webp](https://developers.google.com/speed/webp) is a highly perfomant image format create by Google it was created to replace bitmap.
+[WebP](https://developers.google.com/speed/webp) is a highly perfomant image format create by Google it was created to replace bitmap.
 
 ### SVG
 
@@ -109,12 +110,18 @@ The main drawback of this method is that if your `svg` is large or when you have
 
 To embed an external SVG in your Vuejs template you use the methods listed below and always ensure that the `xlmns` attribute is included in the root element of the SVG otherwise none of the methods provided will work!
 
+```
+💡
+  xmlns="http://www.w3.org/2000/svg"
+ ```
+
 (i) Embedding an external svg as an image element in a Vuejs template:
+
 ![Embedding an external svg as an image element in a Vuejs template](https://res.cloudinary.com/di70zcupa/image/upload/v1611904084/svg-img-implementantion_bhxx8s.png)
 
 _Note: Replace the `<file-name>` with the unique name you gave to the svg resource you downloaded above._
 
-Using this method limits how you can manipulate the `svg` as it really doesn't exist in the document but it is encapsulated in the <img> element. So at most you can only manipulate it as you would a normal image.
+Using this method limits how you can manipulate the `svg` as it really doesn't exist in the document but it is encapsulated in the`<img>` element. So at most you can only manipulate it as you would a normal image.
 
 The cons of this method include limitations in styling and in extending the functionality of SVGs and in addition to that if you are dealing with a lot of SVGs in your template it becomes rather cumbersome to keep wrapping them in image elements.
 
@@ -140,7 +147,7 @@ module.exports = {
     svgRule.uses.clear();
  
     svgRule
-      .use('babel-loader')e
+      .use('babel-loader')
       .loader('babel-loader')
       .end()
       .use('vue-svg-loader')
@@ -159,16 +166,17 @@ Now, let's proceed to learn how we can use the `vue-svg-loader` module to embed 
 ![using SVG loaders to embed svg in Vuejs](https://res.cloudinary.com/di70zcupa/image/upload/v1611925461/using-svg-loader_ximunw.png)
 
 - You first remove all the boilerplate code from the `App.vue` file in the `src` directory.
-- Then you copy and paste the code  in diagram above in `App.vue`, and save your changes.
-- The SGV, I used exists as a standalone file in the assets folder as is named `sample.svg`, so depending on what you named your .svg file you may need to tweak the code above.
+- Then you copy the code in diagram above into `App.vue`, and save your changes.
+- The `svg` I used exists as a standalone file in the assets folder as is named `sample.svg`, so depending on what you named your .svg file you may need to tweak the code above.
 - Run the command below on your terminal, and then on your browser visit ` http://localhost:8080/` to view the Vuejs app with the embedded SVG 🚀.
 ```
 npm run serve
 ```
-The cons of using this method are:
+The pros of using this method are:
 - Your template is kept clean,
 - And there are no limitations on how you can style or extend the functionality of your svg.
 
 ### References
+
 1. <a href="https://youtu.be/hA7ESX7FsE4" class="article-link">What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified Episode 4<a>
-2. <a href="https://stackoverflow.com/questions/43804171/how-to-extract-svg-as-file-from-web-page/43804258" class="article-link">Stackoverflow Post - How to extract svg as a file from a web page <a>
+
